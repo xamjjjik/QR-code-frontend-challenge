@@ -1,0 +1,76 @@
+html,
+body {
+  background-color: hsl(220, 45%, 89%);
+  height: 100%;
+}
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.qrBlock {
+  width: 300px;
+  height: 470px;
+
+  background: white;
+
+  border-radius: 5%;
+  margin: auto;
+}
+
+.qrCodeImg {
+  width: 275px;
+  height: 275px;
+  float: left;
+
+  border-radius: 7%;
+  margin-top: 3%;
+  margin-left: 4.5%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+
+p {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(212, 45%, 89%);
+
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+@font-face {
+  /* // Outfit */
+  font-family: "Outfit";
+  /* // адрес шрифта и тип  */
+  src: url("../Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
